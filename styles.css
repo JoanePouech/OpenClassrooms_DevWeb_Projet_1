@@ -1,0 +1,23 @@
+/* Custom fonts, titles and paragraph */
+
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url('fonts/raleway/Raleway-Regular.ttf');
+    font-family: "Raleway-SemiBold";
+    src: url('fonts/raleway/Raleway-SemiBold.ttf');
+}
+
+h1 {
+    font-family: 'Raleway-SemiBold', 'Arial Black', sans-serif;
+    font-size: large;    
+}
+
+h2 {
+    font-family: 'Raleway-SemiBold', 'Arial Black', sans-serif;
+    font-size: medium;   
+}
+
+p, ul {
+    font-family: 'Raleway-Regular', 'Arial', sans-serif;
+    font-size: small;   
+}
