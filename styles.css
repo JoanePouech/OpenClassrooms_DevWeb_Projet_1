@@ -33,7 +33,6 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
-    border: 2px red solid;
 }
 
 .header__logo {
@@ -55,6 +54,63 @@ header {
 }
 
 .header__menu__register {
+    color: #0065fc;
+}
+
+/* Search Section */
+.searchSection__searchBar {
+    display: flex;
+    align-items: center;
+}
+
+.searchSection__searchBar__label {
+    border: 1px #f2f2f2 solid;
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+.searchSection__searchBar__input {
+    border: 1px #f2f2f2 solid;
+    padding: 10px;
+}
+
+.searchSection__searchBar__text {  
+    font-weight: bold;
+    color: white;
+    border: 1px #0065fc solid;
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+    background-color: #0065fc;
+}
+
+.searchSection__filters {
+    display: flex;
+    align-items: center;
+}
+
+.searchSection__filters__button {
+    font-weight: bold;
+    border: 2px #f2f2f2 solid;
+    border-radius: 100px;
+    padding: 0 10px 0 0;
+    margin: 0 10px;
+}
+
+.searchSection__filters__icon {
+    border: 2px #deebff solid;
+    border-radius: 50%;
+    padding: 10px;
+    color: #0065fc;
+    background-color: #deebff;
+}
+
+.searchSection_comment__icon {
+    font-size: x-small;
+    width: 5px;
+    border: 2px #f2f2f2 solid;
+    border-radius: 50%;
+    padding: 5px;
     color: #0065fc;
 }
 
