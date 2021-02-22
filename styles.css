@@ -21,3 +21,40 @@ p, ul {
     font-family: 'Raleway-Regular', 'Arial', sans-serif;
     font-size: small;   
 }
+
+/* General */
+#container {
+    width: 1100px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border: 2px red solid;
+}
+
+.header__logo {
+    width: 10%;
+}
+
+.header__menu {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu__search {
+    list-style-type: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.header__menu__register {
+    color: #0065fc;
+}
+
