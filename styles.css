@@ -176,7 +176,6 @@ header {
     background-size: cover;
 	background-position: center;
 }
-
 .lodgingSection__results__thumbnails__card__photo2 {
     width: 100%;
     height: 100%;
@@ -261,7 +260,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .lodgingSection__popular__thumbnails__card__photo1 {
@@ -272,7 +270,6 @@ header {
     background-position: center;
     border-radius: 15px 0 0 15px;
 }
-
 .lodgingSection__popular__thumbnails__card__photo2 {
     width: 40%;
     height: 100%;
@@ -281,7 +278,6 @@ header {
     background-position: center;
     border-radius: 15px 0 0 15px;
 }
-
 .lodgingSection__popular__thumbnails__card__photo3 {
     width: 40%;
     height: 100%;
@@ -290,4 +286,71 @@ header {
     background-position: center;
     border-radius: 15px 0 0 15px;
 }
+
+/* Activity Section */
+.activitySection__thumbnails {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.activitySection__thumbnails__card {
+    width: 22%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgb(150 150 150);
+    display: flex;
+    flex-direction: column;
+}
+.activitySection__thumbnails__card--full {
+    height: 100%;
+}
+.activitySection__thumbnails__card--half {
+    height: 45%;
+}
+.activitySection__thumbnails__card--onethird {
+    height: 30%;
+}
+.activitySection__thumbnails__card--twothird {
+    height: 60%;
+}
+
+.activitySection__thumbnails__card__text{
+    line-height: 0.6;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    padding: 10px;
+}
+
+.activitySection__thumbnails__card__photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.activitySection__thumbnails__card__photo--1 {
+    background-image: url(images/activity/2_large/activity1_reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+}
+.activitySection__thumbnails__card__photo--2 {
+    background-image: url(images/activity/2_large/activity2_paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+}
+.activitySection__thumbnails__card__photo--3 {
+    background-image: url(images/activity/2_large/activity3_kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+}
+.activitySection__thumbnails__card__photo--4 {
+    background-image: url(images/activity/2_large/activity4_kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+}
+.activitySection__thumbnails__card__photo--5 {
+    background-image: url(images/activity/2_large/activity5_florian-wehde-xW9e8gdotxI-unsplash.jpg);
+}
+.activitySection__thumbnails__card__photo--6 {
+    background-image: url(images/activity/2_large/activity6_lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+}
+
+
+
 
