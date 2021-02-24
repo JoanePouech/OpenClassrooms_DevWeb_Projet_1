@@ -104,6 +104,11 @@ header {
     padding: 0 10px 0 0;
     margin: 0 10px;
 }
+.searchSection__filters__button:hover {
+    color: white;
+    background-color: #0065fc;
+    border-color: #0065fc;
+}
 
 .searchSection__filters__icon {
     border: 2px #deebff solid;
