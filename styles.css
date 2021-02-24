@@ -110,6 +110,7 @@ header {
 .searchSection__filters {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .searchSection__filters__button {
