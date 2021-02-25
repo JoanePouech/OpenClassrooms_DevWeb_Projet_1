@@ -130,7 +130,10 @@ header {
 }
 
 .searchSection__filters__icon {
-    border: 2px #deebff solid;
+    line-height: 0;
+    text-align: center;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     padding: 10px;
     margin-right: 10px;
@@ -140,10 +143,12 @@ header {
 
 .searchSection_comment__icon {
     font-size: x-small;
-    width: 5px;
+    width: 10px;
+    text-align: center;
     border: 2px #f2f2f2 solid;
     border-radius: 50%;
-    padding: 5px;
+    padding: 3px;
+    margin-right: 5px;
     color: #0065fc;
 }
 
