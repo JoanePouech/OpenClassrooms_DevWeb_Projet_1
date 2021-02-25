@@ -229,22 +229,22 @@ header {
 	background-position: center;
 }
 .lodgingSection__results__thumbnails__card__photo--1 {
-    background-image: url('images/lodging/2_large/lodging1_marcus-loke-WQJvWU_HZFo-unsplash.jpg');
+    background-image: url('images/lodging/results1_marcus-loke-WQJvWU_HZFo-unsplash.jpg');
 }
 .lodgingSection__results__thumbnails__card__photo--2 {
-    background-image: url('images/lodging/2_large/lodging2_fred-kleber-gTbaxaVLvsg-unsplash.jpg');
+    background-image: url('images/lodging/results2_fred-kleber-gTbaxaVLvsg-unsplash.jpg');
 }
 .lodgingSection__results__thumbnails__card__photo--3 {
-    background-image: url('images/lodging/2_large/lodging3_reisetopia-B8WIgxA_PFU-unsplash.jpg');
+    background-image: url('images/lodging/results3_reisetopia-B8WIgxA_PFU-unsplash.jpg');
 }
 .lodgingSection__results__thumbnails__card__photo--4 {
-    background-image: url('images/lodging/2_large/lodging4_annie-spratt-Eg1qcIitAuA-unsplash.jpg');
+    background-image: url('images/lodging/results4_annie-spratt-Eg1qcIitAuA-unsplash.jpg');
 }
 .lodgingSection__results__thumbnails__card__photo--5 {
-    background-image: url('images/lodging/2_large/lodging5_nicate-lee-kT-ZyaiwBe0-unsplash.jpg');
+    background-image: url('images/lodging/results5_nicate-lee-kT-ZyaiwBe0-unsplash.jpg');
 }
 .lodgingSection__results__thumbnails__card__photo--6 {
-    background-image: url('images/lodging/2_large/lodging6_febrian-zakaria-M6S1WvfW68A-unsplash.jpg');
+    background-image: url('images/lodging/results6_febrian-zakaria-M6S1WvfW68A-unsplash.jpg');
 }
 
 .lodgingSection__results__more {
@@ -303,13 +303,13 @@ header {
     border-radius: 15px 0 0 15px;
 }
 .lodgingSection__popular__thumbnails__card__photo--1 {
-    background-image: url('images/lodging/2_large/popular1_emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
+    background-image: url('images/lodging/popular1_emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
 }
 .lodgingSection__popular__thumbnails__card__photo--2 {
-    background-image: url('images/lodging/2_large/popular2_aw-creative-VGs8z60yT2c-unsplash.jpg');
+    background-image: url('images/lodging/popular2_aw-creative-VGs8z60yT2c-unsplash.jpg');
 }
 .lodgingSection__popular__thumbnails__card__photo--3 {
-    background-image: url('images/lodging/2_large/popular3_febrian-zakaria-sjvU0THccQA-unsplash.jpg');
+    background-image: url('images/lodging/popular3_febrian-zakaria-sjvU0THccQA-unsplash.jpg');
 }
 
 /* Activity Section */
@@ -363,22 +363,22 @@ header {
     background-position: center;
 }
 .activitySection__thumbnails__card__photo--1 {
-    background-image: url(images/activity/2_large/activity1_reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-image: url(images/activity/activity1_reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
 }
 .activitySection__thumbnails__card__photo--2 {
-    background-image: url(images/activity/2_large/activity2_paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-image: url(images/activity/activity2_paul-hermann-QFTrLdQIRhI-unsplash.jpg);
 }
 .activitySection__thumbnails__card__photo--3 {
-    background-image: url(images/activity/2_large/activity3_kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-image: url(images/activity/activity3_kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
 }
 .activitySection__thumbnails__card__photo--4 {
-    background-image: url(images/activity/2_large/activity4_kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-image: url(images/activity/activity4_kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
 }
 .activitySection__thumbnails__card__photo--5 {
-    background-image: url(images/activity/2_large/activity5_florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-image: url(images/activity/activity5_florian-wehde-xW9e8gdotxI-unsplash.jpg);
 }
 .activitySection__thumbnails__card__photo--6 {
-    background-image: url(images/activity/2_large/activity6_lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-image: url(images/activity/activity6_lena-paulin-wH2-EJoDcV0-unsplash.jpg);
 }
 
 /* Footer*/
