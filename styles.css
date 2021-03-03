@@ -1,4 +1,5 @@
-/* Custom fonts, titles and paragraph */
+/* Responsive Big screens: 1200px <= device-width */
+/* Titles, paragraph and stars */
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -33,7 +34,8 @@ body {
 
 /* Header */
 header {
-    max-width: 1200px;    
+    width: 95%;
+    max-width: 1200px;
     height: 80px;
     margin: auto;
     display: flex;
@@ -59,7 +61,7 @@ header {
     padding: 0;
     margin: 0;
     width: 70%;
-    height: fit-content;
+    height: auto;
     display: flex;
     justify-content: space-around;
 }
@@ -91,6 +93,7 @@ header {
 
 /* Sections */
 #container {
+    width: 95%;
     max-width: 1200px;
     margin: auto;
 }
@@ -256,6 +259,10 @@ header {
     padding: 10px;
     background-color: #f2f2f2;
     border-radius: 20px;
+}
+
+.lodgingSection__popular--responsiveBlock {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -314,7 +321,8 @@ header {
 
 /* Activity Section */
 .activitySection {
-    padding: 10px 0 30px 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .activitySection__thumbnails {
@@ -389,6 +397,7 @@ footer {
 
 .footer__container {
     max-width: 1200px;
+    width: 95%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -404,6 +413,153 @@ footer {
     line-height: 1.8;
 }
 
+/* Responsive Laptop screens: 1024px <= device-width < 1200px */
+@media screen and (min-device-width: 1024px) and (max-device-width: 1199px) {
+
+    header {
+        width: 95%;
+        max-width: 1150px;
+    }
+
+    #container {
+        width: 95%;
+        max-width: 1150px;
+    }
+
+    .footer__container {
+        width: 95%;
+        max-width: 1150px;
+    }
+}
+
+/* Responsive Mobiles screens: device-width < 426px */
+@media screen and (max-device-width: 425px) {
+
+    header {
+        width: 100%;
+        height: 120px;
+        align-items: flex-start;
+    }
+    .header__logo {
+        width: 30%;
+        position: absolute;
+        margin-left: 10px;
+    }
+    .header__menu {
+        width: 100%;
+        margin: 0;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: flex-end;        
+    }
+    .header__menu__search {
+        width: 100%;
+    }
+    .header__menu__search__item {
+        padding: 15px 0;
+        margin-bottom: 10px;
+    }
+    .header__menu__search__item:hover {
+        color: #0065fc;
+        text-decoration: none;
+        border-top: none;
+        border-bottom: 3px #0065fc solid;
+        padding: 0;
+    }
+
+    #container {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .searchSection {
+        margin: 0 10px;
+    }
+    .searchSection__searchBar__input {
+        width: 50%;
+    }
+    .searchSection__filters__title {
+        width: 100%;
+    }
+    .searchSection__filters__button {
+        margin: 0 10px 10px 10px;
+    }
+
+    .lodgingSection {
+        flex-direction:column-reverse;
+    }
+    .lodgingSection__popular {
+        width: 100%;
+        padding: 10px 0 0 0;
+        border-radius: 0;
+        display:unset ;
+    }
+    .lodgingSection__popular--responsiveBlock {
+        width: auto;
+        margin: 0 10px;
+    }
+    .lodgingSection__popular__title {
+        width: 100%;
+    }
+    .lodgingSection__popular__thumbnails {
+        width: 100%;
+    }
+    .lodgingSection__popular__thumbnails__card__text {
+        padding-left: 10px;
+    }
+    .lodgingSection__popular__thumbnails__card__text__stars {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .lodgingSection__results {
+        width: auto;
+        margin: 0 10px;
+        padding: 10px 0 0 0;
+        background-color: white;
+    }
+    .lodgingSection__results__title {
+        width: 100%;
+    }
+    .lodgingSection__results__thumbnails {
+        height: auto;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .lodgingSection__results__thumbnails__card {
+        height: 200px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .lodgingSection__results__thumbnails__card__text__stars {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    .activitySection {
+        margin: 0 10px;
+        padding-bottom: 0;
+    }
+    .activitySection__thumbnails {
+        height: auto;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .activitySection__thumbnails__card {
+        height: 200px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .footer__container {
+        width: auto;
+        margin: 0 10px;
+        flex-direction: column;
+    }
+    .footer__container__block {
+        width: 100%;
+    }
+}
 
 
 
