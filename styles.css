@@ -436,7 +436,7 @@ footer {
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
 
     .header__menu {
-        width: 50%;
+        width: 40%;
         margin: 0;
     }
 
@@ -538,6 +538,7 @@ footer {
     }
     .searchSection__searchBar__input {
         width: 50%;
+        max-width: 200px;
     }
     .searchSection__filters__title {
         width: 100%;
