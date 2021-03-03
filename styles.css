@@ -44,7 +44,7 @@ header {
 }
 
 .header__logo {
-    width: 10%;
+    width: 100px;
 }
 
 .header__menu {
@@ -432,8 +432,70 @@ footer {
     }
 }
 
-/* Responsive Mobiles screens: device-width < 426px */
-@media screen and (max-device-width: 425px) {
+/* Responsive Tablets screens: 768px <= device-width < 1024px */
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+
+    .header__menu {
+        width: 50%;
+        margin: 0;
+    }
+
+    .searchSection__filters {
+        align-items: flex-start;
+    }
+    .searchSection__filters__button {
+        margin: 0 10px 10px 10px;
+    }
+
+    .lodgingSection {
+        flex-direction:column-reverse;
+    }
+    .lodgingSection__popular {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .lodgingSection__popular__title {
+        width: 95%;
+    }
+    .lodgingSection__popular__thumbnails {
+        width: 95%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .lodgingSection__popular__thumbnails__card {
+        width: 29%;
+    }
+    .lodgingSection__popular__thumbnails__card__text {
+        padding-left: 10px;
+    }
+    .lodgingSection__popular__thumbnails__card__text__title {
+        margin: 0;
+    }
+    .lodgingSection__popular__thumbnails__card__text__stars {
+        margin: 0;
+    }
+    .lodgingSection__results {
+        width: 100%;
+        padding: 0;
+    }
+
+    .activitySection {
+        padding-bottom: 0;
+    }
+    .activitySection__thumbnails {
+        flex-direction: row;
+        height: auto;
+    }
+    .activitySection__thumbnails__card {
+        height: 150px;
+        width: 48%;
+        margin-bottom: 15px;
+    }
+}
+
+/* Responsive Mobiles screens: device-width < 768px */
+@media screen and (max-device-width: 767px) {
 
     header {
         width: 100%;
@@ -441,7 +503,6 @@ footer {
         align-items: flex-start;
     }
     .header__logo {
-        width: 30%;
         position: absolute;
         margin-left: 10px;
     }
