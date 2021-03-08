@@ -92,7 +92,7 @@ header {
 }
 
 /* Sections */
-#container {
+.Section {
     width: 95%;
     max-width: 1200px;
     margin: auto;
@@ -421,7 +421,7 @@ footer {
         max-width: 1150px;
     }
 
-    #container {
+    .Section {
         width: 95%;
         max-width: 1150px;
     }
@@ -448,7 +448,7 @@ footer {
     }
 
     .lodgingSection {
-        flex-direction:column-reverse;
+        flex-direction: column-reverse;
     }
     .lodgingSection__popular {
         width: 100%;
@@ -528,7 +528,7 @@ footer {
         padding: 0;
     }
 
-    #container {
+    .Section {
         flex-wrap: wrap;
         width: 100%;
     }
@@ -554,7 +554,6 @@ footer {
         width: 100%;
         padding: 10px 0 0 0;
         border-radius: 0;
-        display:unset ;
     }
     .lodgingSection__popular--responsiveBlock {
         width: auto;
