@@ -1,4 +1,4 @@
-/* Responsive Big screens: 1200px <= device-width */
+/* Responsive Big screens: 1200px <= width */
 /* Titles, paragraph and stars */
 h1, h2 {
     font-family: 'Raleway', sans-serif;
@@ -413,7 +413,7 @@ footer {
     line-height: 1.8;
 }
 
-/* Responsive Laptop screens: 1024px <= device-width < 1200px */
+/* Responsive Laptop screens: 1024px <= width < 1200px */
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
 
     header {
@@ -432,7 +432,7 @@ footer {
     }
 }
 
-/* Responsive Tablets screens: 768px <= device-width < 1024px */
+/* Responsive Tablets screens: 768px <= width < 1024px */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
     .header__menu {
@@ -494,7 +494,7 @@ footer {
     }
 }
 
-/* Responsive Mobiles screens: device-width < 768px */
+/* Responsive Mobiles screens: width < 768px */
 @media screen and (max-width: 767px) {
 
     header {

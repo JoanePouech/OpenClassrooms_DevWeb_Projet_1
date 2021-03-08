@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8"/>
         <title>Reservia</title>
@@ -22,12 +22,12 @@
         </header>
 
         <section id="container">
-            <section class="searchSection">
+            <div class="searchSection">
                 <h1 class="searchSection__title">Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p class="searchSection__description">En plein centre ville ou en pleine nature</p>
                 <form class="searchSection__searchBar">
-                    <label id="textSearch"><i class="fas fa-map-marker-alt searchSection__searchBar__label"></i></label>
-                    <input type="text" id="textSearch" placeholder="Marseille, France" class="searchSection__searchBar__input"/>
+                    <label><i class="fas fa-map-marker-alt searchSection__searchBar__label"></i></label>
+                    <input type="text" placeholder="Marseille, France" class="searchSection__searchBar__input"/>
                     <h3 class="searchSection__searchBar__text">Rechercher</h3>
                 </form>
                 <div class="searchSection__filters">
@@ -38,9 +38,9 @@
                     <h3 class="searchSection__filters__button"><i class="fas fa-dog searchSection__filters__icon"></i>Animaux autorisés</h3>                  
                 </div>
                 <p class="searchSection_comment"><i class="fas fa-info searchSection_comment__icon"></i> Plus de 500 logements sont disponibles dans cette ville</p>
-            </section>
+            </div>
 
-            <section class="lodgingSection" id="lodgingSection">
+            <div class="lodgingSection" id="lodgingSection">
                 <article class="lodgingSection__results">
                     <h2 class="lodgingSection__results__title">Hébergements à Marseille</h2>
                     <div class="lodgingSection__results__thumbnails">
@@ -140,10 +140,10 @@
 
                 <aside class="lodgingSection__popular">
                     <div class="lodgingSection__popular--responsiveBlock">
-                        <div class="lodgingSection__popular__title">
-                            <h2>Les plus populaires</h2>
-                            <h2><i class="fas fa-chart-line"></i></h2>
-                        </div>
+                        <h2 class="lodgingSection__popular__title">
+                            Les plus populaires
+                            <i class="fas fa-chart-line"></i>
+                        </h2>
                         <div class="lodgingSection__popular__thumbnails">
                             <!-- thumbnail Popular 1 -->
                             <a href="#" class="lodgingSection__popular__thumbnails__card">	
@@ -199,9 +199,9 @@
                         </div>
                     </div>                    
                 </aside>
-            </section>
+            </div>
 
-            <section class="activitySection" id="activitySection">
+            <div class="activitySection" id="activitySection">
                 <h2>Activités à Marseille</h2>
                 <div class="activitySection__thumbnails">
                         <!-- thumbnail Activity 1 -->
@@ -247,7 +247,7 @@
                             </div>	
                         </a>
                 </div>
-            </section>
+            </div>
         </section>
 
         <footer>
