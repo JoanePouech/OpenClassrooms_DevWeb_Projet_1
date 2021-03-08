@@ -414,7 +414,7 @@ footer {
 }
 
 /* Responsive Laptop screens: 1024px <= device-width < 1200px */
-@media screen and (min-device-width: 1024px) and (max-device-width: 1199px) {
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
 
     header {
         width: 95%;
@@ -433,7 +433,7 @@ footer {
 }
 
 /* Responsive Tablets screens: 768px <= device-width < 1024px */
-@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 
     .header__menu {
         width: 40%;
@@ -495,7 +495,7 @@ footer {
 }
 
 /* Responsive Mobiles screens: device-width < 768px */
-@media screen and (max-device-width: 767px) {
+@media screen and (max-width: 767px) {
 
     header {
         width: 100%;
