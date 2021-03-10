@@ -216,6 +216,9 @@ header {
     color: black;
     text-decoration: none;
 }
+.lodgingSection__results__thumbnails__card:hover {
+    box-shadow: 0 0 5px  rgb(100, 100, 100);
+}
 
 .lodgingSection__results__thumbnails__card__text {
     line-height: 0.6;
@@ -291,6 +294,9 @@ header {
     color: black;
     text-decoration: none;
 }
+.lodgingSection__popular__thumbnails__card:hover {
+    box-shadow: 0 0 5px  rgb(100, 100, 100);
+}
 
 .lodgingSection__popular__thumbnails__card__text {
     width: 60%;
@@ -342,6 +348,9 @@ header {
     flex-direction: column;
     color: black;
     text-decoration: none;
+}
+.activitySection__thumbnails__card:hover {
+    box-shadow: 0 0 8px  rgb(100, 100, 100);
 }
 .activitySection__thumbnails__card--full {
     height: 100%;
