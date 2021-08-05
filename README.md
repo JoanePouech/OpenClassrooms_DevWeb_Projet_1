@@ -1,10 +1,10 @@
 ## Projet 2 - Formation Développeur Web - OpenClassrooms
 ## Transformez une maquette en site web
 
-# Contexte du projet
+### Contexte du projet
 A partir de maquettes desktop et mobile fournies, réaliser l'intégration de la page web responsive en HTML et CSS à partir de zéro, sans framework ou pré-compilateur.
 
-# Contraintes techniques
+### Contraintes techniques
 - Les images, couleurs, police sont fournis.
 - Les liens des boutons ne seront pas fonctionnels à ce stade.
 - Le champ de recherche doit être un champ de saisie
