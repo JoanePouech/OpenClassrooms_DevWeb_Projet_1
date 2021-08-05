@@ -3,6 +3,7 @@
 
 ### Contexte du projet
 A partir de maquettes desktop et mobile fournies, réaliser l'intégration de la page web responsive en HTML et CSS à partir de zéro, sans framework ou pré-compilateur.
+Lien de la page: https://joanepouech.github.io/JoanePouech_2_18022021/
 
 ### Contraintes techniques
 - Les images, couleurs, police sont fournis.
