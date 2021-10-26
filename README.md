@@ -1,4 +1,4 @@
-## Projet 2 - Formation Développeur Web - OpenClassrooms
+## Projet 1 - Formation Développeur Web - OpenClassrooms
 ## Transformez une maquette en site web
 
 ### Contexte du projet
